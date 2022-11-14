@@ -41,7 +41,6 @@ echo "
                 <td>\$nombre_à_virgule_flottante</td>
                 <td>$nombre_à_virgule_flottante</td>
             </tr>
-            </tbody>
 
     </table>";
 
