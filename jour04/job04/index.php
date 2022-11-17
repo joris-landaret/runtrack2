@@ -47,14 +47,7 @@ foreach($_POST as $key => $result){
    
 }
 
-/*$i=0;
 
-while(isset($_GET[$i])){
-    $i++;
-}*/
-
-
-    
 
 ?>
 
