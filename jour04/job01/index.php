@@ -1,14 +1,15 @@
 <?php
 
-var_dump($_GET)
+var_dump($_GET);
 
-$i=0;
+$compt=0;
 
-while (isset($_GET[$i]);){
-    echo $_GET[$i]
-    $i++;
+foreach($_GET as $result){
+    $compt++;
 }
-echo "Le nombre d’argument GET envoyé est : $i";
+
+echo "Le nombre d’argument GET envoyé est :  $compt";
+
 ?>
 
 <!DOCTYPE html>
