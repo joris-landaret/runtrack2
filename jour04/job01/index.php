@@ -5,6 +5,7 @@ var_dump($_GET);
 $compt=0;
 
 foreach($_GET as $result){
+    echo $result;
     $compt++;
 }
 
