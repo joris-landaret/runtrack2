@@ -25,6 +25,8 @@
 
 <?php
 
+var_dump($_POST);
+
     if($_POST['username'] == "John" && $_POST['password'] == "Rambo"){
         echo "“C’est pas ma guerre”";
     }
