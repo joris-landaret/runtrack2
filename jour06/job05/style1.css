@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+#style{
+    display: flex;
+    background-color: blueviolet;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: aqua;
+}
