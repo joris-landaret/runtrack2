@@ -14,7 +14,7 @@ else {echo "“Nombre impair”";}
   <head>
     <meta charset="utf-8">
     <title>formulaire</title>
-    <link href="css/grèce.css" rel="stylesheet" type="text/css">
+    
   </head>
 
   <body>
@@ -22,7 +22,6 @@ else {echo "“Nombre impair”";}
     <form action="" method="get">
         <label for="nombre">veuillez saisir un nombre:</label>
         <input type="text" name="nombre" >
-
         <input type="submit" value="Envoyer" >
     </form>
 
