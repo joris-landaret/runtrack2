@@ -12,8 +12,9 @@ function leetSpeak($str){
     for ($i=0; isset($str[$i]) ; $i++) { 
         // je créé un compteur pour mes trois tableaux
         for ($x=0; $x < 7; $x++){
-            // je regarde que dans la chain
+            // je regarde dans la chain les lettres qui correspondes à ceux des tableaux minus ou maj
             if($str[$i] == $minus[$x] || $str[$i] == $maj[$x]){
+                // je remplace les lettres correspondantes
                 $str[$i] = $integer[$x];
 
                 // var_dump($minus[$x]);
@@ -22,7 +23,6 @@ function leetSpeak($str){
         }
         //var_dump($str);
     }
-    
     return $str;
 }
 
