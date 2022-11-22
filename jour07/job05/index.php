@@ -1,6 +1,6 @@
 <?php
 
-$bonjour = 'Bonjour comment tu vos bien ?';
+$bonjour = 'Bonjour comment tu vos ?';
 $o = 'o';
 
 function occurrences($str, $char){
