@@ -1,1 +1,1 @@
-SELECT AVG(capacite) FROM salles
+SELECT SUM(capacite) FROM salles
