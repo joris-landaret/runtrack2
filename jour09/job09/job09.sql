@@ -1,1 +1,0 @@
-SELECT nom, naissance FROM etudiants Where sexe = 'Femme'
