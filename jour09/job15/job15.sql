@@ -1,0 +1,1 @@
+select nom from salle; select nom from etages
