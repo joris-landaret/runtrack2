@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3307
--- Généré le : jeu. 24 nov. 2022 à 13:00
+-- Généré le : jeu. 24 nov. 2022 à 13:26
 -- Version du serveur : 10.6.5-MariaDB
 -- Version de PHP : 8.1.0
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `jour09`
 --
+CREATE DATABASE IF NOT EXISTS `jour09` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `jour09`;
 
 -- --------------------------------------------------------
 
@@ -49,7 +51,7 @@ CREATE TABLE IF NOT EXISTS `etudiants` (
   `nom` varchar(255) NOT NULL,
   `naissance` date NOT NULL,
   `sexe` varchar(25) NOT NULL,
-  `email` int(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
