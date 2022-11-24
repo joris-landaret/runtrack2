@@ -1,1 +1,1 @@
-SELECT SUM(capacite) FROM salles
+SELECT capacite FROM salles order by capacite desc
