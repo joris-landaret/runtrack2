@@ -1,1 +1,1 @@
-select * from etudiants where naissance between '1980-01-01' and '2005-12-31'
+select * from etudiants where naissance < '2005-12-31';
