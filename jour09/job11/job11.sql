@@ -1,1 +1,1 @@
-SELECT capacite FROM salles order by capacite desc
+SELECT AVG(capacite) FROM salles
