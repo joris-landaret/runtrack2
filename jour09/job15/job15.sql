@@ -1,1 +1,1 @@
-select nom from salle; select nom from etages
+SELECT nom FROM etages union select nom from salles 
